@@ -1,0 +1,4 @@
+<div [ngClass]="{'odd': isOdd, 'last': isLast}" *ngFor="let item of items; odd as isOdd; last as isLast">
+  <app-food-item  [food]="item"></app-food-item>
+</div>
+
